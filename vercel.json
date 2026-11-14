@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/token",
+      "destination": "https://jwt-api-by-shizuka.vercel.app/token"
+    }
+  ]
+}

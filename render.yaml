@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: shizuka-jwt-website
+    runtime: static
+    staticPublishPath: .
+    routes:
+      - type: rewrite
+        source: /api/token
+        destination: https://jwt-api-by-shizuka.vercel.app/token

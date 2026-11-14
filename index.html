@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JWT Token Generator - Shizuka API</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main-card">
+    <h1 class="title">JWT TOKEN GENERATOR</h1>
+
+    <div class="input-group">
+      <label for="uidInput">ENTER UID</label>
+      <input type="text" id="uidInput" placeholder="Enter your UID..." autocomplete="off" />
+    </div>
+
+    <div class="input-group">
+      <label for="passwordInput">ENTER PASSWORD</label>
+      <input type="text" id="passwordInput" placeholder="Enter your Password..." autocomplete="off" />
+    </div>
+
+    <button id="generateBtn" class="btn btn-primary" onclick="fetchToken()">GENERATE TOKEN</button>
+
+    <div class="output-wrapper">
+      <div class="output-header">
+        <span>API OUTPUT</span>
+        <button id="copyBtn" class="copy-btn" onclick="copyOutput()">COPY</button>
+      </div>
+      <div id="outputBox" class="output-box">Output will appear here...</div>
+    </div>
+
+    <a href="https://youtube.com/@gamingwithshizuka_11421?si=uuc-OL89_BeRQtyb" target="_blank" rel="noopener noreferrer" class="btn btn-youtube">
+      YOUTUBE
+    </a>
+
+    <a href="https://t.me/FreeFireCraftlandXGroups" target="_blank" rel="noopener noreferrer" class="btn btn-telegram">
+      TELEGRAM
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
